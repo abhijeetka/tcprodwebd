@@ -1,0 +1,95 @@
+body{background: url("../img/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+  }*{margin:0;}.logo{text-align:center;margin:20px auto;border:0px;}
+#noise {
+  animation: 20s linear 0s normal none infinite noiseSlide;
+  background: url("../img/noise.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.form1{
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.25);
+  margin: 143px auto;
+  width: 430px;
+}
+body {
+  background: url("../img/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+  
+}
+body {
+    background: url("../img/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+@keyframes "noiseSlide" {
+    from {
+    background-position: 0px 0px;
+}
+to {
+    background-position: 471px 0px;
+}
+}
+@-moz-keyframes noiseSlide {
+    from {
+    background-position: 0px 0px;
+}
+to {
+    background-position: 471px 0px;
+}
+}
+@-webkit-keyframes "noiseSlide" {
+    from {
+    background-position: 0px 0px;
+}
+to {
+    background-position: 471px 0px;
+}
+}
+@-ms-keyframes "noiseSlide" {
+    from {
+    background-position: 0px 0px;
+}
+to {
+    background-position: 471px 0px;
+}
+}
+@-o-keyframes "noiseSlide" {
+    from {
+    background-position: 0px 0px;
+}
+to {
+    background-position: 471px 0px;
+}
+}
+#noise {
+    background: url("../img/noise.png");
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    -webkit-animation: noiseSlide 20s linear infinite;
+    -ms-animation: noiseSlide 20s linear infinite;
+    -o-animation: noiseSlide 20s linear infinite;
+    animation: noiseSlide 20s linear infinite;
+}
+## custom styles
+.jumbotron {
+  padding-bottom: 48px !important;
+  padding-top: 48px !important;
+  margin-top: 193px !important;
+  margin-left: 150px !important;
+  margin-right: 150px !important;
+  margin-bottom: 200px !important;
+}
+html.ng-scope body.ng-scope div.display
